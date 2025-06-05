@@ -53,11 +53,11 @@ export const getUltravioletLevelText = (ultravioletCode) => {
 
 export const getFineDustIcon = (level) => {
   const iconMappings = {
-    1: "good",           // 좋음
-    2: "fair",           // 보통
-    3: "moderate",       // 민감군주의
-    4: "poor",           // 나쁨
-    5: "veryPoor"       // 매우나쁨
+    1: "good",           
+    2: "fair",          
+    3: "poor",       
+    4: "veryPoor",        
+    5: "extreme"       
   };
   
   return iconMappings[level] || "fair";
