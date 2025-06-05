@@ -12,9 +12,9 @@ const FineDustPage = () => {
     const levelMappings = {
       1: "좋음",      // Good
       2: "보통",      // Fair
-      3: "한때나쁨",   // Moderate
-      4: "나쁨",      // Poor
-      5: "매우나쁨"   // Very Poor
+      3: "나쁨",   // Moderate
+      4: "매우나쁨",      // Poor
+      5: "위험"   // Very Poor
     };
     
     return levelMappings[level] || "보통";

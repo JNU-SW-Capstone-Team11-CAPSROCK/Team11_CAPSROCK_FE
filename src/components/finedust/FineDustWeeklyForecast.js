@@ -8,9 +8,9 @@ const FineDustWeeklyForecast = ({ data }) => {
     const dustLevelColors = {
       1: "#0000FF", // 좋음
       2: "#00FF00", // 보통
-      3: "#FFFF00", // 한때나쁨
-      4: "#FFA500", // 나쁨
-      5: "#FF0000", // 매우나쁨
+      3: "#FFFF00", // 나쁨
+      4: "#FFA500", // 매우나쁨
+      5: "#FF0000", // 위험
     };
 
     // 24시간 전체 배열 생성 (0시부터 23시까지)
